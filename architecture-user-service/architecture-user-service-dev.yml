@@ -1,0 +1,9 @@
+# 数据库连接串 & 密码
+mariadb:
+ url: 'jdbc:mysql://localhost:3306/architecture?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai'
+ password: '{cipher}394b7985188972db8a15ef0cd9c62309150c4fc1caed8836ed7672a6458fabf7'
+
+# 功能开关 ——开启/关闭注册功能
+userservice:
+ registration:
+  disabled: true
